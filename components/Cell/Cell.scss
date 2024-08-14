@@ -1,0 +1,26 @@
+table {
+  // border-collapse: collapse;
+  // table-layout: fixed;
+  width: calc(100% - 24px);
+  margin: 12px;
+}
+
+td {
+  // width: 80px;
+  // height: 80px;
+
+  width: 14.28%; /* 100% divided by 7 cells = 14.28% per cell */
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #f1f1f1;
+  border: 1px solid #aaaaaa;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+  // @media (max-width: 1000px) {
+  //   width: 60px;
+  //   height: 60px;
+  // }
+}
